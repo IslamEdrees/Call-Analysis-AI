@@ -27,12 +27,6 @@ The model is downloaded automatically when first used, but you can preload it:
 python3 -c "from faster_whisper import WhisperModel; model = WhisperModel('small')"
 ```
 
-## 5. Download an Audio File for Testing
-You can download a sample audio file that contains speech:
-```bash
-wget -O /home/recordings/test.wav "https://www2.cs.uic.edu/~i101/SoundFiles/taunt.wav"
-```
-
 ## 6. Run Whisper to Transcribe Audio to Text
 Use the following Python script to transcribe the audio file and save the extracted text:
 
